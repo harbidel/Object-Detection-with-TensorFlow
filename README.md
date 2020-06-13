@@ -25,7 +25,8 @@ Methods for object detection generally fall into either machine learning-based a
         Deformable convolutional networks
 
 # Using Tensorflow Transfer Learning
-click the link below to learn more about Tensorflow Transfer Learnling
+click the link below to learn more about Tensorflow Transfer Learnling.
+
 https://www.tensorflow.org/lite/models/object_detection/overview
 
 # Setting up the Environment
