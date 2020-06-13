@@ -40,7 +40,7 @@ Now to Download TensorFlow and TensorFlow GPU you can use pip or conda commands:
 
  
 
-	For all the other libraries we can use pip or conda to install them. The code is provided below:
+For all the other libraries we can use pip or conda to install them. The code is provided below:
 	
 	pip install --user Cython
 	pip install --user contextlib2
@@ -52,10 +52,12 @@ Now to Download TensorFlow and TensorFlow GPU you can use pip or conda commands:
  
 
 Next, we have Protobuf: Protocol Buffers (Protobuf)  are Google’s language-neutral, platform-neutral, extensible mechanism for serializing structured data, – think of it like XML, but smaller, faster, and simpler. You need to Download Protobuf version 3.4 or above for this demo and extract it.
+
 Now you need to Clone or Download TensorFlow’s Model from Github. Once downloaded and extracted rename the “models-masters” to just “models“.
+
 Now for simplicity, we are going to keep “models” and “protobuf” under one folder “Tensorflow“.
 Next, we need to go inside the Tensorflow folder and then inside research folder and run protobuf from there using this command:
 	
-"path_of_protobuf's bin"./bin/protoc object_detection/protos/
+	"path_of_protobuf's bin"./bin/protoc object_detection/protos/
 
 To check whether this worked or not, you can go to the protos folder inside models>object_detection>protos and there you can see that for every proto file there’s one python file created.
