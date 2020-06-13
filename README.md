@@ -34,20 +34,20 @@ https://www.tensorflow.org/lite/models/object_detection/overview
 Now to Download TensorFlow and TensorFlow GPU you can use pip or conda commands:
 	
 # For CPU
-pip install tensorflow
+	pip install tensorflow
 # For GPU
-pip install tensorflow-gpu
+	pip install tensorflow-gpu
 
  
 
-For all the other libraries we can use pip or conda to install them. The code is provided below:
+	For all the other libraries we can use pip or conda to install them. The code is provided below:
 	
-pip install --user Cython
-pip install --user contextlib2
-pip install --user pillow
-pip install --user lxml
-pip install --user jupyter
-pip install --user matplotlib
+	pip install --user Cython
+	pip install --user contextlib2
+	pip install --user pillow
+	pip install --user lxml
+	pip install --user jupyter
+	pip install --user matplotlib
 
  
 
