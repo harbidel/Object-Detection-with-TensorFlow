@@ -29,6 +29,11 @@ click the link below to learn more about Tensorflow Transfer Learnling.
 
 https://www.tensorflow.org/lite/models/object_detection/overview
 
+# Note
+I used Colab GPU for my works, find link to Colab below:
+
+https://colab.research.google.com/
+
 # Setting up the Environment
 
 Now to Download TensorFlow and TensorFlow GPU you can use pip or conda commands:
